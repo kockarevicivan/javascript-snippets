@@ -7,6 +7,7 @@ import {minimumElement} from './algorithms/arrays/minimum_element';
 
 import {belowMainDiagonal} from './algorithms/matrices/below_main_diagonal';
 import {aboveMainDiagonal} from './algorithms/matrices/above_main_diagonal';
+import {transpose} from './algorithms/matrices/transpose';
 
 const array = [4, 1, 2, 3, 0, -326, 678, 5, 0];
 
@@ -26,3 +27,8 @@ const array = [4, 1, 2, 3, 0, -326, 678, 5, 0];
 //     [2, 6, 8],
 //     [3, 9, 0]
 // ]);
+// console.log(transpose([
+//     [4, 7, 1],
+//     [2, 6, 8],
+//     [3, 9, 0]
+// ]));
