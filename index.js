@@ -5,6 +5,9 @@ import {insertionSort} from './algorithms/arrays/sorting/insertion_sort';
 import {maximumElement} from './algorithms/arrays/maximum_element';
 import {minimumElement} from './algorithms/arrays/minimum_element';
 
+import {belowMainDiagonal} from './algorithms/matrices/below_main_diagonal';
+import {aboveMainDiagonal} from './algorithms/matrices/above_main_diagonal';
+
 const array = [4, 1, 2, 3, 0, -326, 678, 5, 0];
 
 // console.log(bubbleSort(array));
@@ -12,4 +15,14 @@ const array = [4, 1, 2, 3, 0, -326, 678, 5, 0];
 // console.log(quickSort(array, 0, array.length - 1));
 // console.log(insertionSort(array));
 // console.log(maximumElement(array));
-console.log(minimumElement(array));
+// console.log(minimumElement(array));
+// belowMainDiagonal([
+//     [4, 7, 1],
+//     [2, 6, 8],
+//     [3, 9, 0]
+// ]);
+// aboveMainDiagonal([
+//     [4, 7, 1],
+//     [2, 6, 8],
+//     [3, 9, 0]
+// ]);
