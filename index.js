@@ -10,6 +10,7 @@ import { aboveMainDiagonal } from './algorithms/matrices/above_main_diagonal';
 import { transpose } from './algorithms/matrices/transpose';
 import { flipHorizontal } from './algorithms/matrices/flip_horizontal';
 import { flipVertical } from './algorithms/matrices/flip_vertical';
+import Tree from './algorithms/trees/binary_tree';
 
 const array = [4, 1, 2, 3, 0, -326, 678, 5, 0];
 const matrix = [[4, 7, 1],
