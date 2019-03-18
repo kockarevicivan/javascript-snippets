@@ -1,6 +1,6 @@
 # algorithm-snippets
 
-A set of simple algorithms for demonstrating purposes.
+A set of simple algorithms for demonstrating purposes, written in JavaScript.
 
 ## Project setup
 ```
